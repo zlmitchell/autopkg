@@ -23,11 +23,13 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string>Print Manager Plus Client</string>
+			<key>category</key>
+			<string>apps</string>
 			<key>developer</key>
-			<string></string>
+			<string>Print Manager Plus</string>
 			<key>display_name</key>
-			<string>PrintManager</string>
+			<string>Print Manager Plus 9.0</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
