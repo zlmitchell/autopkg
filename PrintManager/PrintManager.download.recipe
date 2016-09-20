@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>PrintManager_MacClient_9.0.28</string>
+		<string>PrintManager</string>
 		<key>DOWNLOAD_URL</key>
 		<string>http://printmanager.s3-website-us-east-1.amazonaws.com/PM90/ProductLinks/PrintManagerPlus90_MacPrintClient</string>
 		<key>NAME</key>
@@ -42,7 +42,7 @@
 				<key>archive_path</key>
 				<string>%pathname%</string>
 				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/Print Manager Plus 9.0.app</string>
 				<key>purge_destination</key>
 				<true/>
 			</dict>
@@ -53,7 +53,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/PrintManager.app</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/%APP_FILENAME%*.app</string>
 				<key>requirement</key>
 				<string>identifier "com.PrintManager" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: William Feeley (YZE643T858)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 			</dict>
